@@ -37,5 +37,3 @@ if __name__ == "__main__":
 # Quick fix: rename/remove local `calendar.py`, then use `import calendar as cal`.
 # Extensible: accept a CLI `year` or print ISO week numbers if desired.
 
-
-
