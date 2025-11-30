@@ -28,3 +28,14 @@ def print_months(year):
 
 if __name__ == "__main__":
     print_months(year)
+
+
+# Purpose: Print each month's calendar for `year`.
+# Avoid shadowing: the script loads the stdlib `calendar` directly so a local
+# `calendar.py` won't override it.
+# Run: `python calendar_app.py`
+# Quick fix: rename/remove local `calendar.py`, then use `import calendar as cal`.
+# Extensible: accept a CLI `year` or print ISO week numbers if desired.
+
+
+
